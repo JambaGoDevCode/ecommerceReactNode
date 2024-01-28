@@ -9,7 +9,7 @@ import './App.css'
 function App() {
 
   return (
-    <Routes> 
+    <Routes>
       <Route path='/' Component={Home}/>
       <Route path='/login' Component={Login}/>
       <Route path='/register' Component={Register}/>
@@ -18,3 +18,4 @@ function App() {
 }
 
 export default App
+
